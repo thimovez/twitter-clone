@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-login-window',
+  selector: 'app-singup-window',
   templateUrl: './login-window.component.html',
   styleUrls: ['./login-window.component.scss']
 })
