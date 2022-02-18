@@ -11,6 +11,9 @@ import { RegisterModalComponent } from './register-modal/register-modal.componen
 import {MatButtonModule} from "@angular/material/button";
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 const routes: Routes = [
   { path: '', component: SingupComponent, children: [
@@ -31,14 +34,17 @@ const routes: Routes = [
     PopupLogin
 
   ],
-  imports: [
-    BrowserModule,
-    [RouterModule.forRoot(routes)],
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatDialogModule,
-    MatFormFieldModule,
-  ],
+    imports: [
+        BrowserModule,
+        [RouterModule.forRoot(routes)],
+        BrowserAnimationsModule,
+        MatButtonModule,
+        MatDialogModule,
+        MatFormFieldModule,
+        MatInputModule,
+        ReactiveFormsModule,
+        MatProgressSpinnerModule,
+    ],
   providers: [],
   bootstrap: [AppComponent],
   exports: [RouterModule]
