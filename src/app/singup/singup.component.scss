@@ -1,0 +1,91 @@
+.login_bgc {
+  background: url("../../static/login-bgc.jpg")no-repeat center / cover;
+  width: 50%;
+  height: 92vh;
+}
+
+.main {
+  display: flex;
+}
+
+.login {
+  padding: 30px;
+  &__head {
+    font-size: 65px;
+    font-family: sans-serif;
+    margin: 40px 0 0 0;
+    font-weight: 700;
+    line-height: 80px;
+  }
+  &__subhead {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 40px 0 0 0;
+    line-height: 35px;
+  }
+}
+
+.descr {
+  width: 300px;
+  height: 36px;
+  font-size: 12px;
+  margin: 10px 0 0 0;
+  span {
+    color: rgb(29, 155, 240);
+  }
+}
+
+.twitter {
+  width: 42px;
+  height: 42px;
+}
+
+.reg {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: 15px;
+  margin: 30px 0 0 0;
+}
+
+.singin {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #999;
+  background-color: white;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  a {
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+  }
+}
+
+.label {
+  margin: 70px 0 0 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  li {
+    margin: 10px 0 0 20px;
+    color: rgb(83, 100, 113);
+    font-size: 14px;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
